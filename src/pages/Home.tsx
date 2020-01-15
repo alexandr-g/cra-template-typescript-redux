@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Counter from '../components/counter/Counter'
 
 export const Home: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ export const Home: React.FC = () => {
         An opinionated Create React App template with React Router, TypeScript
         and Redux
       </p>
+      <Counter />
     </Fragment>
   )
 }
