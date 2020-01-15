@@ -13,7 +13,7 @@ export const About: React.FC = () => {
         omnis doloremque itaque eius eaque sint facilis unde tenetur reiciendis
         aliquam soluta?
       </p>
-      <button className="btn" onClick={() => history.push('/')}>
+      <button type="button" className="btn" onClick={() => history.push('/')}>
         Go back
       </button>
     </Fragment>
