@@ -21,9 +21,6 @@
     "prettier"
   ],
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.9.0",
@@ -60,7 +57,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./"
   },
   "eslintConfig": {
     "extends": "react-app"
