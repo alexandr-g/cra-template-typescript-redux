@@ -1,11 +1,15 @@
 {
   "name": "cra-template-typescript-redux",
   "version": "0.1.0",
-  "private": true,
   "license": "MIT",
+  "author": {
+    "name": "Alexander Grischuk"
+  },
   "engines": {
     "node": ">=10"
   },
+  "main": "template.json",
+  "description": "A quick start Create React App template with React Router, Redux, TypeScript, Enzyme and custom ESlint configurations",
   "keywords": [
     "react",
     "create-react-app",
@@ -20,6 +24,18 @@
     "typescript",
     "prettier"
   ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandr-g/cra-template-typescript-redux",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandr-g/cra-template-typescript-redux/issues"
+  },
   "dependencies": {
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
