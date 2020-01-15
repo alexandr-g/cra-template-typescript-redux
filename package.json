@@ -2,9 +2,7 @@
   "name": "cra-template-typescript-redux",
   "version": "0.1.0",
   "license": "MIT",
-  "author": {
-    "name": "Alexander Grischuk"
-  },
+  "author": "Alexander Grischuk <alexgrischuk@gmail.com",
   "engines": {
     "node": ">=10"
   },
