@@ -1,7 +1,25 @@
 {
-  "name": "my-app-from-template",
+  "name": "cra-template-typescript-redux",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "enzyme",
+    "eslint",
+    "redux",
+    "react-redux",
+    "react-router",
+    "react-router-dom",
+    "typescript",
+    "prettier"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
