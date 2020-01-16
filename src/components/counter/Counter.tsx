@@ -26,6 +26,7 @@ const Counter: React.FC = () => {
                 <button
                   className="waves-effect waves-teal btn-flat blue"
                   type="button"
+                  data-qa="decrement-counter"
                   onClick={() =>
                     dispatch({ type: actionTypes.DECREMENT_COUNTER })
                   }
@@ -35,6 +36,7 @@ const Counter: React.FC = () => {
                 <button
                   className="waves-effect waves-teal btn-flat red"
                   type="button"
+                  data-qa="increment-counter"
                   onClick={() =>
                     dispatch({ type: actionTypes.INCREMENT_COUNTER })
                   }
