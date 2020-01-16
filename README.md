@@ -48,7 +48,7 @@ The template provides basic Redux configuration with [feature based](https://red
 
 ## Testing
 
-Testing is configured with [Enzyme](https://airbnb.io/enzyme/).
+Testing is done with [Enzyme](https://airbnb.io/enzyme/).
 
 ## [Prettier](https://prettier.io/)
 
