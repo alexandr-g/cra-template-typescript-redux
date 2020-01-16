@@ -1,22 +1,28 @@
-# A quick start Redux Create React App template
+# A quick start Redux + TypeScript Create React App template
 
-An opinionated quick start [Create React App](https://github.com/facebook/create-react-app) (CRA) template with **Redux**, **TypeScript**, **React Router**, **Enzyme** and custom ESlint configuration.
+An opinionated quick start [Create React App](https://github.com/facebook/create-react-app) (CRA) _template_ with configured **Redux**, **TypeScript**, **React Router**, **Enzyme** and custom **ESlint** configuration.
 
 Original Create React App README available [here](./README_CRA.md)
 
 ## Usage
 
-`npx create-react-app <your-project_name> --template typescript-redux`
+```bash
+npx create-react-app your-project-name --template typescript-redux
+```
 
 Or
 
-`yarn create react-app <your-project_name> --template typescript-redux`
+```bash
+yarn create react-app your-project-name --template typescript-redux
+```
 
-`npx` command installs most recent stable version of CRA from npm. `--template` parameter points to this template, note that `cra-template-` prefix is omitted.
+`npx` command installs the most recent stable version of CRA from npm.
+
+`--template` parameter points to this template, note that `cra-template-` prefix is omitted.
 
 ## Motivation
 
-You know the pain. You start a new project and need to configure it again and again. It needs routing, ok you setup Router, then you need Redux - ok, oh. Wait... All of these tools you get used to. Redux boilerplate is taking some much to type. I want just to focus on building amazing projects and not spending hours configuring tools. That's why I've created this template. It's for you to use.
+You know the pain. You start a new project from scratch and need to configure it again and again. It needs routing, ok you setup Router, then you need Redux - ok, oh 😩Redux boilerplate is taking so much time to type. Wait... what if you could have all the tools you want just from the beginning? I want to focus on building amazing projects and not spending hours configuring. That's why I've created this template. It's here for you to use.
 
 ## Available Scripts
 
@@ -38,11 +44,11 @@ Due to CRA template limitations (we can change only `scripts` and `dependencies`
 
 ## Redux configuration
 
-Template provides basic Redux configuration with [feature based](https://redux.js.org/style-guide/style-guide/#structure-files-as-feature-folders-or-ducks) folder structure. You can use [Redux devtools browser extension](http://extension.remotedev.io/). Sample feature included in `src/features` folder, note technology agnostic `features` folder name. Based on Redux maintainers recommendation.
+The template provides basic Redux configuration with [feature based](https://redux.js.org/style-guide/style-guide/#structure-files-as-feature-folders-or-ducks) folder structure. You can use [Redux devtools browser extension](http://extension.remotedev.io/). Sample feature included in `src/features` folder, note technology agnostic `features` folder name. Based on Redux maintainers recommendation.
 
 ## Testing
 
-Snapshot testing done with [Enzyme](https://airbnb.io/enzyme/).
+Testing is done with [Enzyme](https://airbnb.io/enzyme/).
 
 ## [Prettier](https://prettier.io/)
 
@@ -50,9 +56,9 @@ I added `prettier` to force consistent formatting. Don't like trailing semicolon
 
 ## Eslint configurations
 
-Template extends CRA eslint rules with custom set, tailored for reasonable and clean development process.
+The template extends CRA ESLint rules with a custom set, tailored for the reasonable and clean development process.
 
-Eslint rules are commented for your convenience feel free to tweak or remove them inside `.eslintrc`. No judgement.
+Eslint rules are commented for your convenience feel free to tweak or remove them inside `.eslintrc`. No judgment.
 
 ## Thank you
 
