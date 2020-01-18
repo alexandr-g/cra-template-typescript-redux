@@ -1,4 +1,4 @@
-name: Main CI
+name: CI
 
 on: [push, pull_request]
 
@@ -24,4 +24,4 @@ jobs:
           yarn lint
       - name: run tests
         run: |
-          yarn test
+          yarn test --watchAll=false
