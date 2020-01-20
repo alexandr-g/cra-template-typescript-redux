@@ -1,0 +1,8 @@
+{
+  "name": "cra-template-typescript-redux",
+  "version": 2,
+  "public": true,
+  "github": {
+    "autoJobCancelation": false
+  }
+}
