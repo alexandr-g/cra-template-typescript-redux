@@ -1,0 +1,16 @@
+language: node_js
+node_js: "12"
+
+install:
+  - yarn
+
+script:
+  - yarn lint
+  - yarn test
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: yarn release
+  on:
+    branch: master
