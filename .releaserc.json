@@ -1,0 +1,4 @@
+{
+  "branch": "master",
+  "plugins": ["@semantic-release/git@v7", "@semantic-release/changelog"]
+}
