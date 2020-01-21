@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { actionTypes, selectors } from '../../features/counter'
+import { actionTypes, selectors } from '../../store'
 
 const Counter: React.FC = () => {
   const count = useSelector(selectors.getCountValue)

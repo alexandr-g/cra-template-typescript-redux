@@ -62,15 +62,3 @@ I added `prettier` to force consistent formatting. Don't like trailing semicolon
 The template extends CRA ESLint rules with a custom set, tailored for the reasonable and clean development process.
 
 Eslint rules are commented for your convenience feel free to tweak or remove them inside `.eslintrc`. No judgment.
-
-## How to create custom Create React App (CRA) templates
-
-I created a step by step guide on how to create your own templates. Check it
-
-[View on Medium](https://medium.com/@alexgrischuk/how-to-create-custom-create-react-app-cra-templates-73a5196edeb)
-
-[View blog post](https://grischuk.de/how-to-create-custom-create-react-app-cra-templates)
-
-## Thank you
-
-I hope this template will be helpful for you and you will love using it 💖!

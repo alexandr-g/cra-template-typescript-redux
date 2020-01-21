@@ -1,19 +1,18 @@
 {
   "name": "cra-template-typescript-redux",
-  "version": "0.1.2",
+  "version": "0.0.1",
   "license": "MIT",
-  "author": "Alexander Grischuk <alexgrischuk@gmail.com",
+  "author": "Bohdan Pohasii",
   "engines": {
     "node": ">=10"
   },
   "main": "template.json",
-  "description": "A quick start Create React App template with React Router, Redux, TypeScript, Enzyme and custom ESlint configurations",
+  "description": "CRA template for Ciklum-digital. A quick start Create React App template with React Router, Redux, TypeScript, ESlint, Prettier configurations",
   "keywords": [
     "react",
     "create-react-app",
     "cra-template",
     "template",
-    "enzyme",
     "eslint",
     "redux",
     "react-redux",
@@ -28,11 +27,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexandr-g/cra-template-typescript-redux",
+    "url": "https://github.com/ciklum-digital/cra-template-typescript-redux.git",
     "directory": "/"
-  },
-  "bugs": {
-    "url": "https://github.com/alexandr-g/cra-template-typescript-redux/issues"
   },
   "dependencies": {
     "@types/enzyme": "^3.10.4",

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Counter from '../components/counter/Counter'
+import Counter from '../features/counter/components/counter/Counter'
 
 export const Home: React.FC = () => {
   return (
