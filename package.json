@@ -82,6 +82,11 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
