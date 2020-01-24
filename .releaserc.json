@@ -11,6 +11,11 @@
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
-    "@semantic-release/changelog"
+    [
+      "@semantic-release/changelog",
+      {
+        "assets": ["changelogFile/CHANGELOG.md"]
+      }
+    ]
   ]
 }
