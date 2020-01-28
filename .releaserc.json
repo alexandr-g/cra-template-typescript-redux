@@ -1,8 +1,13 @@
 {
   "branch": "master",
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
+  "prepare": [
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "Changelog"
+      }
+    ],
     "@semantic-release/npm",
     [
       "@semantic-release/git",
@@ -10,13 +15,12 @@
         "assets": ["package.json", "yarn.lock", "CHANGELOG.md"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
-    ],
-    [
-      "@semantic-release/changelog",
-      {
-        "assets": ["changelogFile/CHANGELOG.md"]
-      }
-    ],
+    ]
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
     "@semantic-release/github"
   ]
 }
