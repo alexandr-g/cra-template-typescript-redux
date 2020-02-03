@@ -59,6 +59,24 @@ Testing is done with [Enzyme](https://airbnb.io/enzyme/).
 
 I added `prettier` to force consistent formatting. Don't like trailing semicolons? Feel free to [tweak prettier rules](https://prettier.io/docs/en/configuration.html) inside `.prettierrc` file to match your code style.
 
+## Styles/CSS/Styling
+
+Just for the styling purpose of the example app, I used [Materialize](https://materializecss.com/). The template is shipped with the Materialize by default. I want to make sure that this template is style agnostic so you can plugin any CSS-in-JS or whatever library/framework you want to use for styles on your own.
+
+### How to remove materialize
+
+In order to remove Materialize [MaterializeCSS](https://materializecss.com/) navigate to the `public` folder, open `index.html` and remove following CDN link in the `<head>` lines 18-22:
+
+```html
+<!--Import materialize.css-->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+/>
+```
+
+Remove or adjust all the `classNames` related to the Materialize and feel free to you your own styling.
+
 ## Eslint configurations
 
 The template extends CRA ESLint rules with a custom set, tailored for the reasonable and clean development process.
