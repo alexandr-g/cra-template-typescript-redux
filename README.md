@@ -75,7 +75,7 @@ In order to remove Materialize [MaterializeCSS](https://materializecss.com/) nav
 />
 ```
 
-Remove or adjust all the `classNames` related to the Materialize and feel free to you your own styling.
+Remove or adjust all the `classNames` related to the Materialize and feel free to use your own styling.
 
 ## Eslint configurations
 
