@@ -9,6 +9,9 @@
     "prettier/@typescript-eslint",
     "prettier/react"
   ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     // Make prettier code formatting suggestions more verbose.
     "prettier/prettier": ["warn"],
