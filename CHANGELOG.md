@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.13](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.12...v0.2.13) (2020-02-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-scripts to v3.4.0 ([6e52bc5](https://github.com/alexandr-g/cra-template-typescript-redux/commit/6e52bc52ba67c0d5ed7ccd52155237ee3ce7802a))
+
 ## [0.2.12](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.11...v0.2.12) (2020-02-03)
 
 
