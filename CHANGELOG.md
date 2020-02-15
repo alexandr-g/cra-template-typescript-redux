@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.15](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.14...v0.2.15) (2020-02-15)
+
+
+### Bug Fixes
+
+* remove react-scripts from the template itself ([0ab0701](https://github.com/alexandr-g/cra-template-typescript-redux/commit/0ab0701c0702d00c03a5f3370809eb3eedac1aee))
+
 ## [0.2.14](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.13...v0.2.14) (2020-02-15)
 
 
