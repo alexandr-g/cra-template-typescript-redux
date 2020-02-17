@@ -24,7 +24,11 @@ jobs:
           yarn lint
       - name: run tests
         run: |
-          yarn test --watchAll=false
+          yarn test --watchAll=false --coverage --reporters=default
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1.0.5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
       - name: build
         run: |
           yarn build
