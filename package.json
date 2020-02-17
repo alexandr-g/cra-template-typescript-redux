@@ -110,6 +110,6 @@
     "@semantic-release/github": "7.0.3",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.1.0",
-    "semantic-release": "17.0.3"
+    "semantic-release": "17.0.4"
   }
 }
