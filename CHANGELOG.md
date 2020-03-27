@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.18](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.17...v0.2.18) (2020-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v3 ([b6995c9](https://github.com/alexandr-g/cra-template-typescript-redux/commit/b6995c96e485143004c907405246fe7bf1b4c8b9))
+
 ## [0.2.17](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.16...v0.2.17) (2020-02-21)
 
 
