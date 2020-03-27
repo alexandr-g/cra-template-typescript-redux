@@ -77,7 +77,8 @@
     "prepublishOnly": "yarn clean-files && yarn copy-files",
     "commit": "npx git-cz",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
-    "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./"
+    "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./",
+    "format": "prettier --write src/**/*.{ts,tsx}"
   },
   "eslintConfig": {
     "extends": "react-app"
