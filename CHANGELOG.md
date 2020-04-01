@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.20](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.19...v0.2.20) (2020-04-01)
+
+
+### Bug Fixes
+
+* add cy-data attributes ([08f3535](https://github.com/alexandr-g/cra-template-typescript-redux/commit/08f35357556d0a5cbd1cdb91ddd1cef449ac42da))
+
 ## [0.2.19](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.18...v0.2.19) (2020-03-27)
 
 
