@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => (
         Redux + TypeScript
       </NavLink>
       <ul className="right hide-on-med-and-down">
-        <li>
+        <li cy-data="home-nav-link">
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
