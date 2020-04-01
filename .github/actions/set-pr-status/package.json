@@ -1,0 +1,7 @@
+{
+  "name": "pr-status",
+  "main": "entrypoint.js",
+  "dependencies": {
+    "actions-toolkit": "3.0.1"
+  }
+}
