@@ -1,0 +1,67 @@
+name: E2E tests
+on: [deployment_status]
+
+jobs:
+  set_pending:
+    name: Register pending E2E tests
+    if: github.event.deployment_status.state == 'pending'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Set status to "pending"
+        uses: ./.github/actions/set-pr-status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        with:
+          context: e2e tests
+          status: pending
+          message: Waiting for deployment
+
+  run_tests:
+    name: Run E2E tests on deployment success
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node13.6.0-chrome80-ff72
+    env:
+      NPM_RC: ${{ secrets.NPM_RC }}
+      TERM: xterm
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Set status to "running"
+        uses: ./.github/actions/set-pr-status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        with:
+          context: e2e tests
+          status: pending
+          message: E2E tests are running
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run E2E tests
+        run: yarn e2e --config baseUrl=${{ github.event.deployment_status.target_url }}
+
+      - name: Set status to "success"
+        if: success()
+        uses: ./.github/actions/set-pr-status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        with:
+          context: e2e tests
+          status: success
+          message: All tests are passed
+
+      - name: Set status to "failure"
+        if: failure()
+        uses: ./.github/actions/set-pr-status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        with:
+          context: e2e tests
+          status: failure
+          message: Some tests are failed
