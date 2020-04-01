@@ -78,7 +78,8 @@
     "commit": "npx git-cz",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./",
-    "format": "prettier --write src/**/*.{ts,tsx}"
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "e2e": "cypress run --spec 'cypress/integration/*'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -111,7 +112,9 @@
     "@semantic-release/github": "7.0.5",
     "codecov": "3.6.5",
     "commitizen": "4.0.3",
+    "cypress": "^4.3.0",
     "cz-conventional-changelog": "3.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
     "semantic-release": "17.0.4"
   }
 }
