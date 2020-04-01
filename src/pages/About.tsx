@@ -13,7 +13,12 @@ export const About: React.FC = () => {
         omnis doloremque itaque eius eaque sint facilis unde tenetur reiciendis
         aliquam soluta?
       </p>
-      <button type="button" className="btn" onClick={() => history.push('/')}>
+      <button
+        type="button"
+        className="btn"
+        cy-data="go-back-button"
+        onClick={() => history.push('/')}
+      >
         Go back
       </button>
     </Fragment>
