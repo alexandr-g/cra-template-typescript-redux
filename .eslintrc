@@ -1,7 +1,7 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "cypress"],
   "extends": [
     "plugin:prettier/recommended",
     "airbnb-typescript",
@@ -9,6 +9,10 @@
     "prettier/@typescript-eslint",
     "prettier/react"
   ],
+  "env": {
+    "jest": true,
+    "cypress/globals": true
+  },
   "rules": {
     // Make prettier code formatting suggestions more verbose.
     "prettier/prettier": ["warn"],
