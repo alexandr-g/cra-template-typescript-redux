@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.22](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.21...v0.2.22) (2020-04-02)
+
+
+### Bug Fixes
+
+* remove cypress/global ([2495409](https://github.com/alexandr-g/cra-template-typescript-redux/commit/2495409a7a3c680541eaffd03fa1fec5038a5957))
+
 ## [0.2.21](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.20...v0.2.21) (2020-04-02)
 
 
