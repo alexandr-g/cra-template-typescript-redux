@@ -9,12 +9,12 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Switch>
-        <div className="container">
+      <div className="container">
+        <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/about" component={About} />
-        </div>
-      </Switch>
+        </Switch>
+      </div>
     </BrowserRouter>
   )
 }
