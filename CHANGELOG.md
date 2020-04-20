@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.24](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.23...v0.2.24) (2020-04-20)
+
+
+### Bug Fixes
+
+* **app.tsx:** move div outside of the switch ([bb99801](https://github.com/alexandr-g/cra-template-typescript-redux/commit/bb99801af350d97740974609f320cf8975a21aed)), closes [#58](https://github.com/alexandr-g/cra-template-typescript-redux/issues/58)
+
 ## [0.2.23](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.22...v0.2.23) (2020-04-05)
 
 
