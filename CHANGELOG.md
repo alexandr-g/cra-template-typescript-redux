@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.26](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.25...v0.2.26) (2020-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to ~3.9.0 ([6d2f982](https://github.com/alexandr-g/cra-template-typescript-redux/commit/6d2f9828c42ed0053d37dc447b2edbafa4beb0db))
+
 ## [0.2.25](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.24...v0.2.25) (2020-05-02)
 
 
