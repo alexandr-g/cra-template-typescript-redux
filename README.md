@@ -85,12 +85,18 @@ Eslint rules are commented for your convenience feel free to tweak or remove the
 
 ## How to create custom Create React App (CRA) templates
 
-I created a step by step guide on how to create your own templates. Check it
+I created a step by step guide on how to create your own templates.
 
 [View on Medium](https://medium.com/@alexgrischuk/how-to-create-custom-create-react-app-cra-templates-73a5196edeb)
 
-[View blog post](https://grischuk.de/how-to-create-custom-create-react-app-cra-templates)
+[View on personal blog](https://grischuk.de/how-to-create-custom-create-react-app-cra-templates)
+
+[View on dev.to](https://dev.to/alexandrg/how-to-create-custom-create-react-app-cra-templates-3nca)
+
+## My other templates
+
+[A light weight Create React App template with Recoil for state management](https://github.com/alexandr-g/cra-template-recoil)
 
 ## Thank you
 
-I hope this template will be helpful for you and you will love using it 💖!
+I hope this template will be helpful for you and you will love using it 🖤
