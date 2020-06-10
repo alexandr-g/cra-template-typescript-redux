@@ -1,5 +1,13 @@
 Changelog
 
+## [0.2.27](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.26...v0.2.27) (2020-06-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/jest to v26 ([3129dcd](https://github.com/alexandr-g/cra-template-typescript-redux/commit/3129dcd41fe2414072002eab9c1574768bf2c2d5))
+* **deps:** update dependency @types/jest to v26 in template ([1102156](https://github.com/alexandr-g/cra-template-typescript-redux/commit/1102156a9cdf9806f9b5bf36dcf0090b1de629d7))
+
 ## [0.2.26](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.25...v0.2.26) (2020-05-18)
 
 
