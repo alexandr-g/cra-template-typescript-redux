@@ -2,6 +2,6 @@
   "name": "pr-status",
   "main": "entrypoint.js",
   "dependencies": {
-    "actions-toolkit": "5.0.0"
+    "actions-toolkit": "6.0.0"
   }
 }
