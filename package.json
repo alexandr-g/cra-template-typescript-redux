@@ -113,7 +113,7 @@
     "codecov": "3.7.2",
     "commitizen": "4.1.5",
     "cypress": "4.12.1",
-    "cz-conventional-changelog": "3.2.1",
+    "cz-conventional-changelog": "3.3.0",
     "eslint-plugin-cypress": "2.11.1",
     "semantic-release": "17.1.1"
   }
