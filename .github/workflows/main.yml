@@ -26,7 +26,7 @@ jobs:
         run: |
           yarn test --watchAll=false --coverage --reporters=default
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1.0.5
+        uses: codecov/codecov-action@v1.0.14
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
       - name: build
