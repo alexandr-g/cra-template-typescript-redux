@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.31](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.30...v0.2.31) (2020-10-26)
+
+
+### Bug Fixes
+
+* [#123](https://github.com/alexandr-g/cra-template-typescript-redux/issues/123) switch noFallthroughCasesInSwitch to true ([6045822](https://github.com/alexandr-g/cra-template-typescript-redux/commit/6045822f0801cec4c8cdba94eb73e0373ec03ee7))
+
 ## [0.2.30](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.29...v0.2.30) (2020-10-02)
 
 
