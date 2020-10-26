@@ -27,7 +27,7 @@ yarn create react-app your-project-name --template typescript-redux
 
 ## Motivation
 
-You know the pain. You start a new project from scratch and need to configure it again and again. It needs routing, ok you setup Router, then you need Redux - ok, oh 😩Redux boilerplate is taking so much time to type. Wait... what if you could have all the tools you want just from the beginning? I want to focus on building amazing projects and not spending hours configuring. That's why I've created this template. It's here for you to use.
+You know the pain. You start a new project from scratch and need to configure it again and again. It needs routing, ok you setup Router, then you need Redux - ok, oh 😩 Redux boilerplate is taking so much time to type. Wait... what if you could have all the tools you want just from the beginning? I want to focus on building amazing projects and not spending hours configuring. That's why I've created this template. It's here for you to use.
 
 ## Available Scripts
 
@@ -82,6 +82,14 @@ Remove or adjust all the `classNames` related to the Materialize and feel free t
 The template extends CRA ESLint rules with a custom set, tailored for the reasonable and clean development process.
 
 Eslint rules are commented for your convenience feel free to tweak or remove them inside `.eslintrc`. No judgment.
+
+## Testing template locally
+
+To test the output of your template locally run
+
+```bash
+npx create-react-app my-app --template file:/\path\to\file
+```
 
 ## How to create custom Create React App (CRA) templates
 
