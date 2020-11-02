@@ -1,10 +1,8 @@
-FROM node:alpine
+FROM node:slim
 
 COPY package*.json ./
 
-RUN npm cache clean --force
-
-RUN npm i
+RUN npm ci
 
 COPY entrypoint.js /entrypoint.js
 
