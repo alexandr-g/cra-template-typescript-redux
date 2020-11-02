@@ -1,13 +1,16 @@
 const { Toolkit } = require('actions-toolkit')
+const core = require('@actions/core')
 
 const tools = new Toolkit()
 
 const { owner, repo } = tools.context.repo
 const { sha } = tools.context
-const { status, message, context } = tools.inputs
+const { status, message, context } = core.getInput()
+
+console.log('--->core.getInput()', core.getInput())
 
 tools.github.repos
-  .createStatus({
+  .createCommitStatus({
     owner,
     repo,
     sha,
