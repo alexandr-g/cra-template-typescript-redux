@@ -19,5 +19,14 @@
     "react/jsx-fragments": "off",
     // Disable prefer default export
     "import/prefer-default-export": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "ecmaVersion": 12,
+        "project": ["./tsconfig.json"]
+      }
+    }
+  ]
 }
