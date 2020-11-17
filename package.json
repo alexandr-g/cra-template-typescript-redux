@@ -76,8 +76,8 @@
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp .eslintignore .eslintrc .prettierrc tsconfig.json README.md README_CRA.md template/",
     "prepublishOnly": "yarn clean-files && yarn copy-files",
     "commit": "npx git-cz",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
-    "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./",
+    "lint": "eslint src template cypress --ext .js,.jsx,.ts,.tsx",
+    "fix": "eslint src template cypress --ext .js,.jsx,.ts,.tsx  --fix",
     "format": "prettier --write src/**/*.{ts,tsx}",
     "e2e": "cypress run --spec 'cypress/integration/*'"
   },
