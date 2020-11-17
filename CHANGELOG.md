@@ -1,5 +1,14 @@
 Changelog
 
+## [0.2.33](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.32...v0.2.33) (2020-11-17)
+
+
+### Bug Fixes
+
+* eslint add parse options ([195cdfe](https://github.com/alexandr-g/cra-template-typescript-redux/commit/195cdfed4ab91e597b639ae70d83adca2078134b))
+* eslint add tsconfig.eslint.json ([9f41184](https://github.com/alexandr-g/cra-template-typescript-redux/commit/9f41184f72f411f975dba6d5094f88e98ea24c4b))
+* update all the eslint dependencies ([e5d9149](https://github.com/alexandr-g/cra-template-typescript-redux/commit/e5d9149bd7bf8cde086882f0f2724a89b28028e0))
+
 ## [0.2.32](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.31...v0.2.32) (2020-10-27)
 
 
