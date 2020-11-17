@@ -1,5 +1,12 @@
 Changelog
 
+## [0.2.34](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.33...v0.2.34) (2020-11-17)
+
+
+### Bug Fixes
+
+* update @typescript-eslint/eslint-plugin and @typescript-eslint/parser in template ([20d5ebb](https://github.com/alexandr-g/cra-template-typescript-redux/commit/20d5ebb5458aa70421afecf8181f76988582734f))
+
 ## [0.2.33](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.32...v0.2.33) (2020-11-17)
 
 
