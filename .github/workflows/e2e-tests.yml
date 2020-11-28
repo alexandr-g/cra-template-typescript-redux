@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         with:
           state: success
-          description: All tests are passed
+          description: E2E tests are passed
 
       - name: Set status to "failure"
         if: failure()
@@ -60,4 +60,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         with:
           state: failure
-          description: Some tests are failed
+          description: Some of the E2E tests are failed
