@@ -15,9 +15,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         with:
-          context: e2e tests
-          status: pending
-          message: Waiting for deployment
+          state: pending
+          description: Waiting for E2E
 
   run_tests:
     name: Run E2E tests on deployment success
@@ -36,9 +35,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         with:
-          context: e2e tests
-          status: pending
-          message: E2E tests are running
+          state: pending
+          description: E2E tests are running
 
       - name: Install dependencies
         run: yarn
@@ -52,9 +50,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         with:
-          context: e2e tests
-          status: success
-          message: All tests are passed
+          state: success
+          description: All tests are passed
 
       - name: Set status to "failure"
         if: failure()
@@ -62,6 +59,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB }}
         with:
-          context: e2e tests
-          status: failure
-          message: Some tests are failed
+          state: failure
+          description: Some tests are failed
