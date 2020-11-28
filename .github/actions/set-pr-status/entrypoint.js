@@ -4,16 +4,15 @@ const tools = new Toolkit()
 
 const { owner, repo } = tools.context.repo
 const { sha } = tools.context
-const { status, message, context } = tools.inputs
+const { state, description } = tools.inputs
 
 tools.github.repos
-  .createStatus({
+  .createCommitStatus({
     owner,
     repo,
     sha,
-    state: status,
-    description: message,
-    context,
+    state,
+    description,
     target_url: `https://www.github.com/${owner}/${repo}/commit/${sha}/checks`,
   })
   .then(() => {
