@@ -1,5 +1,19 @@
 Changelog
 
+# [0.3.0](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.34...v0.3.0) (2021-01-08)
+
+
+### Bug Fixes
+
+* remove remove enzyme-adapter-react-16 and its types ([93bfe90](https://github.com/alexandr-g/cra-template-typescript-redux/commit/93bfe90c8656186fedfb5fa523be6e7359990cb8))
+* **deps:** update react monorepo to v17 ([9f1f1bd](https://github.com/alexandr-g/cra-template-typescript-redux/commit/9f1f1bd157b7917f379fe76c530038886112d025))
+
+
+### Features
+
+* add support for enzyme adapter react v17 ([0380797](https://github.com/alexandr-g/cra-template-typescript-redux/commit/0380797802e59461ede95300df32b1b14f754154))
+* add support for enzyme-adapter-react-17 ([41a2396](https://github.com/alexandr-g/cra-template-typescript-redux/commit/41a2396fddcb1c57d6ab0ffb72f6d5edbba2b980))
+
 ## [0.2.34](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.2.33...v0.2.34) (2020-11-17)
 
 
