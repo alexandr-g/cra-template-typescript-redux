@@ -1,5 +1,12 @@
 Changelog
 
+## [0.3.2](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.1...v0.3.2) (2021-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/react-dom to v17 ([b4d14ad](https://github.com/alexandr-g/cra-template-typescript-redux/commit/b4d14ad5f103f10c671fabe5f6b8156be202dadc))
+
 ## [0.3.1](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.0...v0.3.1) (2021-01-28)
 
 
