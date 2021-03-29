@@ -1,5 +1,13 @@
 Changelog
 
+## [0.3.4](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.3...v0.3.4) (2021-03-29)
+
+
+### Bug Fixes
+
+* compilerOptions.jsx must be react-jsx warning ([58cabd0](https://github.com/alexandr-g/cra-template-typescript-redux/commit/58cabd00d61df59b18ca6836067e5530a4ca17ea)), closes [#171](https://github.com/alexandr-g/cra-template-typescript-redux/issues/171)
+* **deps:** update dependency @wojtekmaj/enzyme-adapter-react-17 to ^0.6.0 ([790f0a6](https://github.com/alexandr-g/cra-template-typescript-redux/commit/790f0a6918399a1b815c39c73362654b38faee13))
+
 ## [0.3.3](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.2...v0.3.3) (2021-02-22)
 
 

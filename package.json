@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-redux",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "license": "MIT",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com",
   "engines": {
