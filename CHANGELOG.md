@@ -1,5 +1,13 @@
 Changelog
 
+## [0.3.6](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.5...v0.3.6) (2021-04-18)
+
+
+### Bug Fixes
+
+* prefix-less CSS Autoprefixer warning ([3599df3](https://github.com/alexandr-g/cra-template-typescript-redux/commit/3599df35fa37fb112e4e67b58698c62e3476242f))
+* **deps:** update dependency typescript to ~4.2.0 ([db838f0](https://github.com/alexandr-g/cra-template-typescript-redux/commit/db838f01a8e2690a49e66bfe6f1025ff34a86c41))
+
 ## [0.3.5](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.4...v0.3.5) (2021-04-18)
 
 
