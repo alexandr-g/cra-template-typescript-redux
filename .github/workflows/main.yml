@@ -53,7 +53,11 @@ jobs:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
       - name: Test
-        run: yarn test
+        run: yarn test --coverage --reporters=default
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1.4.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
         env:
           CI: true
 
