@@ -3,13 +3,14 @@ name: CI
 on: [push]
 
 env:
-  NODE_VERSION: 12.x
+  NODE_VERSION: 10.x
 
 jobs:
   install:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Trigger CI
       - uses: actions/checkout@v2
       - name: Use Node ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v2
