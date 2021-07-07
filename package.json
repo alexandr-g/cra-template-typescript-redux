@@ -115,7 +115,7 @@
     "@semantic-release/github": "7.2.3",
     "codecov": "3.8.2",
     "commitizen": "4.2.4",
-    "cypress": "6.9.1",
+    "cypress": "7.7.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint-plugin-cypress": "2.11.3",
     "semantic-release": "17.4.4"
