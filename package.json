@@ -117,7 +117,7 @@
     "commitizen": "4.2.4",
     "cypress": "6.9.1",
     "cz-conventional-changelog": "3.3.0",
-    "eslint-plugin-cypress": "2.11.3",
+    "eslint-plugin-cypress": "2.12.1",
     "semantic-release": "17.4.7"
   }
 }
