@@ -16,7 +16,8 @@
     "react/jsx-fragments": "off",
     // Disable prefer default export
     "import/prefer-default-export": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "@typescript-eslint/object-curly-spacing": "off"
   },
   "overrides": [
     {
