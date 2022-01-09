@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  NODE_VERSION: 12.x
+  NODE_VERSION: 14
 
 jobs:
   install:
