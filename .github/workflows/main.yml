@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  NODE_VERSION: 12.x
+  NODE_VERSION: 14.x
 
 jobs:
   install:
@@ -75,12 +75,13 @@ jobs:
       - name: Build
         run: yarn build
       - name: Release
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v2.7.0
         id: semantic
         with:
           branch: master
+          semantic_version: 18.0.0
           extra_plugins: |
-            @semantic-release/git@v9
+            @semantic-release/git
             @semantic-release/changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
