@@ -47,7 +47,7 @@
     "@typescript-eslint/parser": "5.9.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.0",
     "enzyme": "^3.11.0",
-    "eslint": "^7.11.0",
+    "eslint": "^8.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.0",
