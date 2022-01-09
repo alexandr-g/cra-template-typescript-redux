@@ -22,7 +22,7 @@ jobs:
     name: Run E2E tests on deployment success
     if: github.event.deployment_status.state == 'success'
     runs-on: ubuntu-latest
-    container: cypress/included:5.0.0
+    container: cypress/included:8.7.0
     env:
       NPM_RC: ${{ secrets.NPM_TOKEN }}
       TERM: xterm
