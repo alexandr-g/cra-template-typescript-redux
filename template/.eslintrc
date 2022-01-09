@@ -17,7 +17,10 @@
     // Disable prefer default export
     "import/prefer-default-export": "off",
     "comma-dangle": "off",
-    "@typescript-eslint/object-curly-spacing": "off"
+    "@typescript-eslint/object-curly-spacing": "off",
+    "react/jsx-filename-extension": [0],
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off"
   },
   "overrides": [
     {
