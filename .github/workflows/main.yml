@@ -75,7 +75,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Release
-        uses: cycjimmy/semantic-release-action@v2.5.4
+        uses: cycjimmy/semantic-release-action@v2.7.0
         id: semantic
         with:
           semantic_version: 18.0.0
