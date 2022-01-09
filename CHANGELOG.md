@@ -1,5 +1,12 @@
 Changelog
 
+## [0.3.10](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.9...v0.3.10) (2022-01-09)
+
+
+### Bug Fixes
+
+* add @types/redux-mock-store to the template ([1a381b4](https://github.com/alexandr-g/cra-template-typescript-redux/commit/1a381b4a8f614e4a81f5b076dd75add589903bc9))
+
 ## [0.3.9](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.8...v0.3.9) (2022-01-09)
 
 
