@@ -1,5 +1,15 @@
 Changelog
 
+## [0.3.11](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.10...v0.3.11) (2022-01-09)
+
+
+### Bug Fixes
+
+* disable more ESLint rules ([c9ad950](https://github.com/alexandr-g/cra-template-typescript-redux/commit/c9ad950d8027b55437b25aef094683e555d08481))
+* remove beforeEach ([402c884](https://github.com/alexandr-g/cra-template-typescript-redux/commit/402c884d645c61362a8cdd00acd7aac7af8fd31d))
+* update "@typescript-eslint/parser" to "5.9.0" ([05a39fa](https://github.com/alexandr-g/cra-template-typescript-redux/commit/05a39fad7b4c0a79b4667c3930d4eaad4fc288b6))
+* update eslint-config-airbnb-typescript to v16 ([0229047](https://github.com/alexandr-g/cra-template-typescript-redux/commit/0229047aebe05f8b66aa3a872d03797c90d9cd90))
+
 ## [0.3.10](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.9...v0.3.10) (2022-01-09)
 
 
