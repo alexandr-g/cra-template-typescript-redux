@@ -2,13 +2,7 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
-  "extends": [
-    "plugin:prettier/recommended",
-    "airbnb-typescript",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react"
-  ],
+  "extends": ["airbnb-typescript", "plugin:prettier/recommended"],
   "rules": {
     // Make prettier code formatting suggestions more verbose.
     "prettier/prettier": ["warn"],
