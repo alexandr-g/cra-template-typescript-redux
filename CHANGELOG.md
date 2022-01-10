@@ -1,5 +1,14 @@
 Changelog
 
+## [0.3.12](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.11...v0.3.12) (2022-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v8 ([3bd40e7](https://github.com/alexandr-g/cra-template-typescript-redux/commit/3bd40e74cea10d0dce232715bfdf69b2f27987f2))
+* simplify ESLint prettier config ([7dbebcb](https://github.com/alexandr-g/cra-template-typescript-redux/commit/7dbebcb161d1e9531827c8fbbef8cf8c48bb8d13))
+* upgrade eslint, react-scripts, eslint-plugin to major versions ([ca456ba](https://github.com/alexandr-g/cra-template-typescript-redux/commit/ca456baa567bb8c67ed57718ff11a99a8f31cc7c))
+
 ## [0.3.11](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.10...v0.3.11) (2022-01-09)
 
 
