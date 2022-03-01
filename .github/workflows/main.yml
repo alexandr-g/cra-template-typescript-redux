@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: CI
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Use Node ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v2
         with:
@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: Running lint
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
@@ -47,7 +47,7 @@ jobs:
 
     steps:
       - name: Running tests
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
@@ -67,7 +67,7 @@ jobs:
 
     steps:
       - name: Build
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
