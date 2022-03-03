@@ -75,7 +75,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Release
-        uses: cycjimmy/semantic-release-action@v2.7.0
+        uses: cycjimmy/semantic-release-action@v3.0.0
         id: semantic
         with:
           branch: master
