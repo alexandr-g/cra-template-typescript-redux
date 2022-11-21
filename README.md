@@ -97,7 +97,7 @@ I created a step by step guide on how to create your own templates.
 
 [View on Medium](https://medium.com/@alexgrischuk/how-to-create-custom-create-react-app-cra-templates-73a5196edeb)
 
-[View on personal blog](https://grischuk.de/how-to-create-custom-create-react-app-cra-templates)
+[View on personal blog](https://grischuk.de/posts/how-to-create-custom-create-react-app-templates)
 
 [View on dev.to](https://dev.to/alexandrg/how-to-create-custom-create-react-app-cra-templates-3nca)
 
