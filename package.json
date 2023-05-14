@@ -3,9 +3,6 @@
   "version": "0.3.14",
   "license": "MIT",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com",
-  "engines": {
-    "node": ">=16"
-  },
   "main": "template.json",
   "description": "A quick start Create React App template with React Router, Redux, TypeScript, Enzyme and custom ESlint configurations",
   "keywords": [
