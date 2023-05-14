@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export const About: React.FC = () => {
-  const history = useHistory()
+  const navigate = useNavigate()
 
   return (
     <Fragment>
@@ -17,7 +17,7 @@ export const About: React.FC = () => {
         type="button"
         className="btn"
         cy-data="go-back-button"
-        onClick={() => history.push('/')}
+        onClick={() => navigate('/')}
       >
         Go back
       </button>

@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export const About: React.FC = () => {
-  const history = useHistory()
+  const navigate = useNavigate()
 
   return (
     <Fragment>
@@ -13,7 +13,7 @@ export const About: React.FC = () => {
         omnis doloremque itaque eius eaque sint facilis unde tenetur reiciendis
         aliquam soluta?
       </p>
-      <button type="button" className="btn" onClick={() => history.push('/')}>
+      <button type="button" className="btn" onClick={() => navigate('/')}>
         Go back
       </button>
     </Fragment>
