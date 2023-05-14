@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 describe('About page', () => {
   beforeEach(() => {
     cy.visit('/about')

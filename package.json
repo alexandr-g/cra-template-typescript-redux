@@ -74,7 +74,7 @@
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "fix": "eslint src --ext .js,.jsx,.ts,.tsx  --fix",
     "format": "prettier --write src/**/*.{ts,tsx}",
-    "e2e": "cypress run --spec 'cypress/integration/*'"
+    "e2e": "cypress run --env device=web"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -113,7 +113,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "codecov": "3.8.3",
     "commitizen": "4.2.4",
-    "cypress": "9.4.1",
+    "cypress": "^12.12.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint-plugin-cypress": "2.12.1",
     "semantic-release": "18.0.1"
