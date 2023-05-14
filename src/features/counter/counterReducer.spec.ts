@@ -3,7 +3,7 @@ import counterReducer from './counterReducer'
 import { CounterActionTypes } from './types'
 
 describe('features > counter > counterReducer', () => {
-  it(`increments value, if ${INCREMENT_COUNTER} action is provided`, () => {
+  test(`increments value, if ${INCREMENT_COUNTER} action is provided`, () => {
     const initialState = {
       value: 0,
     }
@@ -19,7 +19,7 @@ describe('features > counter > counterReducer', () => {
     expect(counterReducer(initialState, action)).toEqual(expectedState)
   })
 
-  it(`increments value, if ${DECREMENT_COUNTER} action is provided`, () => {
+  test(`increments value, if ${DECREMENT_COUNTER} action is provided`, () => {
     const initialState = {
       value: 0,
     }

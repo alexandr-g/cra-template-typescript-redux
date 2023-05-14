@@ -1,6 +1,5 @@
-import React from 'react'
+import { render, screen, fireEvent } from '@testing-library/react'
 import { Provider } from 'react-redux'
-import { mount } from 'enzyme'
 import configureStore from 'redux-mock-store'
 
 import { actionTypes } from '../../features/counter'
@@ -17,47 +16,43 @@ describe('Counter', () => {
   // Add jest mock spy to watch for store.dispatch method. See https://jestjs.io/docs/en/jest-object#jestspyonobject-methodname for more info
   jest.spyOn(store, 'dispatch')
 
-  it('renders without crashing.', () => {
-    const wrapper = mount(
+  test('renders without crashing.', () => {
+    render(
       <Provider store={store}>
         <Counter />
       </Provider>
     )
 
-    const countValue = wrapper.find('strong').text()
-    expect(countValue).toBe('42')
+    const countValue = screen.getByText('42')
+    expect(countValue).toBeInTheDocument()
   })
 
-  it('should be possible to increment counter.', () => {
-    const wrapper = mount(
+  test('should be possible to increment counter.', () => {
+    render(
       <Provider store={store}>
         <Counter />
       </Provider>
     )
 
-    wrapper
-      .find('button')
-      .filter({ 'data-qa': 'increment-counter' })
-      .simulate('click')
+    const incrementButton = screen.getByRole('button', { name: 'increment' })
+    fireEvent.click(incrementButton)
 
-    expect(store.dispatch).toBeCalledTimes(1)
+    expect(store.dispatch).toHaveBeenCalledTimes(1)
 
-    expect(store.dispatch).toBeCalledWith({
+    expect(store.dispatch).toHaveBeenCalledWith({
       type: actionTypes.INCREMENT_COUNTER,
     })
   })
 
-  it('should be possible to decrement counter.', () => {
-    const wrapper = mount(
+  test('should be possible to decrement counter.', () => {
+    render(
       <Provider store={store}>
         <Counter />
       </Provider>
     )
 
-    wrapper
-      .find('button')
-      .filter({ 'data-qa': 'decrement-counter' })
-      .simulate('click')
+    const decrementButton = screen.getByRole('button', { name: 'decrement' })
+    fireEvent.click(decrementButton)
 
     expect(store.dispatch).toHaveBeenCalledTimes(1)
 
