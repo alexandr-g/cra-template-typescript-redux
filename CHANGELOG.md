@@ -1,5 +1,20 @@
 Changelog
 
+# [1.0.0](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.14...v1.0.0) (2023-05-15)
+
+
+### Features
+
+* **tests:** migrate from enzyme to RTL ([5ef17ec](https://github.com/alexandr-g/cra-template-typescript-redux/commit/5ef17ec564524e5c7fd3cf6160544edfe6ce4ec4))
+* upgrade to react 18, react-router v6, react-redux v8 ([746096b](https://github.com/alexandr-g/cra-template-typescript-redux/commit/746096b3443da25d444eb247bf25230ac37efa31))
+* upgrade to react 18, react-router v6, react-redux v8, react-testing-library ([3a915e6](https://github.com/alexandr-g/cra-template-typescript-redux/commit/3a915e6982c9d9c47f33d2b868f14dfc0bbc4c7b))
+
+
+### BREAKING CHANGES
+
+* swap enzyme in favour of react-testing-library (RTL) for unit tests; upgrade to
+React v18, react-redux v8, react-router-dom v6
+
 ## [0.3.14](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.13...v0.3.14) (2023-05-14)
 
 
