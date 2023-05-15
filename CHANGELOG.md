@@ -1,5 +1,12 @@
 Changelog
 
+## [1.0.1](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v1.0.0...v1.0.1) (2023-05-15)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-plugin-import ([1fe926c](https://github.com/alexandr-g/cra-template-typescript-redux/commit/1fe926c6bb3f6df3b00441d38264c59933230434))
+
 # [1.0.0](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v0.3.14...v1.0.0) (2023-05-15)
 
 
