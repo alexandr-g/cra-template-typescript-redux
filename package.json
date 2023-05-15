@@ -4,16 +4,16 @@
   "license": "MIT",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com",
   "engines": {
-    "node": ">=14.0.0 <19.0.0"
+    "node": ">=16.0.0 <20.0.0"
   },
   "main": "template.json",
-  "description": "A quick start Create React App template with React Router, Redux, TypeScript, Enzyme and custom ESlint configurations",
+  "description": "A quick start Create React App template with React Router, Redux, TypeScript, React Testing Library and custom ESlint configurations",
   "keywords": [
     "react",
     "create-react-app",
     "cra-template",
     "template",
-    "enzyme",
+    "react-testing-library",
     "eslint",
     "redux",
     "react-redux",
