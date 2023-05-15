@@ -4,16 +4,16 @@
   "license": "MIT",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com",
   "engines": {
-    "node": ">=10"
+    "node": ">=16.0.0 <20.0.0"
   },
   "main": "template.json",
-  "description": "A quick start Create React App template with React Router, Redux, TypeScript, Enzyme and custom ESlint configurations",
+  "description": "A quick start Create React App template with React Router, Redux, TypeScript, React Testing Library and custom ESlint configurations",
   "keywords": [
     "react",
     "create-react-app",
     "cra-template",
     "template",
-    "enzyme",
+    "react-testing-library",
     "eslint",
     "redux",
     "react-redux",
@@ -35,18 +35,14 @@
     "url": "https://github.com/alexandr-g/cra-template-typescript-redux/issues"
   },
   "dependencies": {
-    "@types/enzyme": "^3.10.4",
-    "@types/jest": "^27.0.0",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^14.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/react-redux": "^7.1.5",
-    "@types/react-router-dom": "^5.1.3",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-router-dom": "^5.3.3",
     "@types/redux-mock-store": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^5.59.5",
     "@typescript-eslint/parser": "5.9.1",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.0",
-    "enzyme": "^3.11.0",
     "eslint": "^8.6.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-prettier": "^8.0.0",
@@ -56,12 +52,12 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.0.8",
     "prettier": "^2.0.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-redux": "^7.1.3",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "5.0.0",
-    "redux": "^4.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-mock-store": "^1.5.4",
     "typescript": "~4.5.0"
@@ -78,7 +74,7 @@
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "fix": "eslint src --ext .js,.jsx,.ts,.tsx  --fix",
     "format": "prettier --write src/**/*.{ts,tsx}",
-    "e2e": "cypress run --spec 'cypress/integration/*'"
+    "e2e": "cypress run --env device=web"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -110,12 +106,14 @@
     ]
   },
   "devDependencies": {
+    "@babel/runtime": "^7.21.5",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.2",
+    "@testing-library/jest-dom": "^5.16.5",
     "codecov": "3.8.3",
     "commitizen": "4.2.4",
-    "cypress": "9.4.1",
+    "cypress": "^12.12.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint-plugin-cypress": "2.12.1",
     "semantic-release": "18.0.1"

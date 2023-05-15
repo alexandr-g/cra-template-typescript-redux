@@ -5,7 +5,7 @@
 
 # A quick start Redux + TypeScript Create React App template
 
-An opinionated quick start [Create React App](https://github.com/facebook/create-react-app) (CRA) _template_ with configured **Redux**, **TypeScript**, **React Router**, **Enzyme** and custom **ESlint** configuration.
+An opinionated quick start [Create React App](https://github.com/facebook/create-react-app) (CRA) _template_ with configured **Redux**, **TypeScript**, **React Router**, **React Testing Library** and custom **ESlint** configuration.
 
 Original Create React App README available [here](./README_CRA.md)
 
@@ -53,7 +53,7 @@ The template provides basic Redux configuration with [feature based](https://red
 
 ## Testing
 
-Testing is done with [Enzyme](https://airbnb.io/enzyme/).
+Testing is done with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
 ## [Prettier](https://prettier.io/)
 
