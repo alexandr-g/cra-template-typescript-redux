@@ -24,7 +24,7 @@ const Counter: React.FC = () => {
             <div className="card-action">
               <div className="group">
                 <button
-                  className="waves-effect waves-teal btn-flat blue"
+                  className="waves-effect waves-teal btn-flat red"
                   type="button"
                   data-qa="decrement-counter"
                   onClick={() =>
@@ -34,7 +34,7 @@ const Counter: React.FC = () => {
                   decrement
                 </button>
                 <button
-                  className="waves-effect waves-teal btn-flat red"
+                  className="waves-effect waves-teal btn-flat blue"
                   type="button"
                   data-qa="increment-counter"
                   onClick={() =>

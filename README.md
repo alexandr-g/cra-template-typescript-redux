@@ -88,7 +88,7 @@ Eslint rules are commented for your convenience feel free to tweak or remove the
 To test the output of your template locally run
 
 ```bash
-npx create-react-app my-app --template file:/\path\to\file
+npx create-react-app my-app --template file:./cra-template-typescript-redux
 ```
 
 ## How to create custom Create React App (CRA) templates
@@ -100,10 +100,6 @@ I created a step by step guide on how to create your own templates.
 [View on personal blog](https://grischuk.de/posts/how-to-create-custom-create-react-app-templates)
 
 [View on dev.to](https://dev.to/alexandrg/how-to-create-custom-create-react-app-cra-templates-3nca)
-
-## My other templates
-
-[A light weight Create React App template with Recoil for state management](https://github.com/alexandr-g/cra-template-recoil)
 
 ## Thank you
 
