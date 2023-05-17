@@ -1,5 +1,13 @@
 Changelog
 
+## [1.0.2](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v1.0.1...v1.0.2) (2023-05-17)
+
+
+### Bug Fixes
+
+* include eslint-disable @typescript-eslint/default-param-last in template ([0583874](https://github.com/alexandr-g/cra-template-typescript-redux/commit/0583874b6ab3c94a4728c95cbe7509864a37c576))
+* update eslint-plugins that caused installation fail ([a5769c1](https://github.com/alexandr-g/cra-template-typescript-redux/commit/a5769c197398db1547edb932a99d043095c28d57))
+
 ## [1.0.1](https://github.com/alexandr-g/cra-template-typescript-redux/compare/v1.0.0...v1.0.1) (2023-05-15)
 
 
