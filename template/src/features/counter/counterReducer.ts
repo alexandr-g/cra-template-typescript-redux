@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/default-param-last */
 import { INCREMENT_COUNTER, DECREMENT_COUNTER } from './actionTypes'
 import { CounterActionTypes } from './types'
 
