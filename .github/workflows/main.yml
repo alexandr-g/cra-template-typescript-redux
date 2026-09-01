@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  NODE_VERSION: 20.x
+  NODE_VERSION: 24.x
 
 jobs:
   install:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: CI
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Use Node ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - uses: actions/cache@v3
+      - uses: actions/cache@v6
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
@@ -33,8 +33,12 @@ jobs:
 
     steps:
       - name: Running lint
-        uses: actions/checkout@v3
-      - uses: actions/cache@v3
+        uses: actions/checkout@v7
+      - name: Use Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - uses: actions/cache@v6
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
@@ -51,8 +55,12 @@ jobs:
 
     steps:
       - name: Running tests
-        uses: actions/checkout@v3
-      - uses: actions/cache@v3
+        uses: actions/checkout@v7
+      - name: Use Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - uses: actions/cache@v6
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
@@ -73,8 +81,12 @@ jobs:
 
     steps:
       - name: Build
-        uses: actions/checkout@v3
-      - uses: actions/cache@v3
+        uses: actions/checkout@v7
+      - name: Use Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - uses: actions/cache@v6
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
@@ -83,11 +95,10 @@ jobs:
       - name: Build
         run: yarn build
       - name: Release
-        uses: cycjimmy/semantic-release-action@v2.7.0
+        uses: cycjimmy/semantic-release-action@v5
         id: semantic
         with:
-          branch: master
-          semantic_version: 18.0.0
+          branches: master
           extra_plugins: |
             @semantic-release/git
             @semantic-release/changelog

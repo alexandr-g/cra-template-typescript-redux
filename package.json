@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com",
   "engines": {
-    "node": ">=20.0.0 <23.0.0"
+    "node": ">=24.0.0 <25.0.0"
   },
   "main": "template.json",
   "description": "A quick start Create React App template with React Router, Redux, TypeScript, React Testing Library and custom ESlint configurations",
