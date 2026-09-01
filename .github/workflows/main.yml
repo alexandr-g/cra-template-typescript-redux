@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  NODE_VERSION: 16.x
+  NODE_VERSION: 20.x
 
 jobs:
   install:
@@ -20,6 +20,8 @@ jobs:
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Enable Corepack
+        run: corepack enable
       - name: Install dependencies
         run: yarn install --frozen-lockfile
         env:
@@ -36,6 +38,8 @@ jobs:
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Enable Corepack
+        run: corepack enable
       - name: Lint
         run: yarn lint
         env:
@@ -52,6 +56,8 @@ jobs:
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Enable Corepack
+        run: corepack enable
       - name: Test
         run: yarn test --coverage --reporters=default
       - name: Upload coverage to Codecov
@@ -72,6 +78,8 @@ jobs:
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-${{ env.NODE_VERSION }}-modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Enable Corepack
+        run: corepack enable
       - name: Build
         run: yarn build
       - name: Release

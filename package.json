@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Alexander Grischuk <alexgrischuk@gmail.com",
   "engines": {
-    "node": ">=16.0.0 <20.0.0"
+    "node": ">=20.0.0 <23.0.0"
   },
   "main": "template.json",
   "description": "A quick start Create React App template with React Router, Redux, TypeScript, React Testing Library and custom ESlint configurations",
@@ -118,5 +118,6 @@
     "cz-conventional-changelog": "3.3.0",
     "eslint-plugin-cypress": "2.13.3",
     "semantic-release": "18.0.1"
-  }
+  },
+  "packageManager": "yarn@4.18.0"
 }
