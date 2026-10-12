@@ -8154,7 +8154,7 @@ __metadata:
     react-router-dom: "npm:^6.11.1"
     react-scripts: "npm:^5.0.1"
     redux: "npm:^4.2.1"
-    redux-devtools-extension: "npm:^2.13.8"
+    redux-devtools-extension: "npm:^2.13.9"
     redux-mock-store: "npm:^1.5.4"
     semantic-release: "npm:25.0.8"
     typescript: "npm:~4.5.0"
@@ -18286,12 +18286,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux-devtools-extension@npm:^2.13.8":
-  version: 2.13.8
-  resolution: "redux-devtools-extension@npm:2.13.8"
+"redux-devtools-extension@npm:^2.13.9":
+  version: 2.13.9
+  resolution: "redux-devtools-extension@npm:2.13.9"
   peerDependencies:
     redux: ^3.1.0 || ^4.0.0
-  checksum: 10c0/f9053f299ff7ac089aedb856e41782587b3e99fea33dd5ec634422b0990c74dea5255ed961e1a87de19409697651ae9aeff769bd1bf1e2ccb96e1f6122e0064d
+  checksum: 10c0/753611d40c5d8fd00af985a07122ab922ad8ec48ae617b6ed58594af08c8efaf54024a76da8f5293f9394002da977604da10e828d13f0e419c95d9edccf5c50a
   languageName: node
   linkType: hard
 
