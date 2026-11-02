@@ -4220,17 +4220,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/changelog@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@semantic-release/changelog@npm:6.0.1"
+"@semantic-release/changelog@npm:6.0.3":
+  version: 6.0.3
+  resolution: "@semantic-release/changelog@npm:6.0.3"
   dependencies:
     "@semantic-release/error": "npm:^3.0.0"
     aggregate-error: "npm:^3.0.0"
-    fs-extra: "npm:^9.0.0"
+    fs-extra: "npm:^11.0.0"
     lodash: "npm:^4.17.4"
   peerDependencies:
     semantic-release: ">=18.0.0"
-  checksum: 10c0/8e1d7a9c04bf3873b28a2d196a760f4fd5f896b617a0de2c0fcccc149e073830ffbc5c54606fa6ab744b63fa71cf2cd06e82bb0649f967209d2ea1142ab556c7
+  checksum: 10c0/94c9c287d34fde6d4c6c574869e853dc04180b1d9e6036097d83e0d14783bf5bb8e546fdc4fac2e979d636fa170fd573eaa4265b9d332e436e4813b7aebe7728
   languageName: node
   linkType: hard
 
@@ -8121,7 +8121,7 @@ __metadata:
   resolution: "cra-template-typescript-redux@workspace:."
   dependencies:
     "@babel/runtime": "npm:^7.21.5"
-    "@semantic-release/changelog": "npm:6.0.1"
+    "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/github": "npm:8.0.2"
     "@testing-library/jest-dom": "npm:^5.16.5"
